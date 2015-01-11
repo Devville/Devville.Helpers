@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devville.Helpers", "Devville.Helpers\Devville.Helpers.csproj", "{68C779A4-8280-4CB1-A56F-951E9E285D1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devville.Helpers.Web", "Devville.Helpers.Web\Devville.Helpers.Web.csproj", "{7DED11FB-329A-42F2-9080-F52B782825D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devville.Helpers.SharePoint", "Devville.Helpers.SharePoint\Devville.Helpers.SharePoint.csproj", "{E95385B1-D0BC-4D93-A6E4-1710A41587A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{833D9FB5-74E0-4AEB-89BD-7F6084972675}"
+	ProjectSection(SolutionItems) = preProject
+		Common\AssemblyCommon.cs = Common\AssemblyCommon.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{6F340F72-C72E-4DFC-BF2A-8F7EBD2CD7FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Devville.Helpers", "Devville.Helpers", "{27C31A19-A23F-43AB-84AC-1CA8839AB99B}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet\Devville.Helpers\Devville.Helpers.1.2.nupkg = NuGet\Devville.Helpers\Devville.Helpers.1.2.nupkg
+		NuGet\Devville.Helpers\Devville.Helpers.1.3.nupkg = NuGet\Devville.Helpers\Devville.Helpers.1.3.nupkg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Devville.Helpers.SharePoint", "Devville.Helpers.SharePoint", "{FE6C0CDE-3706-4330-B332-C3F5EE3C3D05}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet\Devville.Helpers.SharePoint\Devville.Helpers.SharePoint.1.2.nupkg = NuGet\Devville.Helpers.SharePoint\Devville.Helpers.SharePoint.1.2.nupkg
+		NuGet\Devville.Helpers.SharePoint\Devville.Helpers.SharePoint.1.3.nupkg = NuGet\Devville.Helpers.SharePoint\Devville.Helpers.SharePoint.1.3.nupkg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Devville.Helpers.Web", "Devville.Helpers.Web", "{CCB21BA8-CD4E-42E6-AD35-45EEF59B2F0D}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet\Devville.Helpers.Web\Devville.Helpers.Web.1.3.nupkg = NuGet\Devville.Helpers.Web\Devville.Helpers.Web.1.3.nupkg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68C779A4-8280-4CB1-A56F-951E9E285D1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68C779A4-8280-4CB1-A56F-951E9E285D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68C779A4-8280-4CB1-A56F-951E9E285D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68C779A4-8280-4CB1-A56F-951E9E285D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DED11FB-329A-42F2-9080-F52B782825D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DED11FB-329A-42F2-9080-F52B782825D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DED11FB-329A-42F2-9080-F52B782825D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DED11FB-329A-42F2-9080-F52B782825D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E95385B1-D0BC-4D93-A6E4-1710A41587A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E95385B1-D0BC-4D93-A6E4-1710A41587A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E95385B1-D0BC-4D93-A6E4-1710A41587A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E95385B1-D0BC-4D93-A6E4-1710A41587A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27C31A19-A23F-43AB-84AC-1CA8839AB99B} = {6F340F72-C72E-4DFC-BF2A-8F7EBD2CD7FD}
+		{FE6C0CDE-3706-4330-B332-C3F5EE3C3D05} = {6F340F72-C72E-4DFC-BF2A-8F7EBD2CD7FD}
+		{CCB21BA8-CD4E-42E6-AD35-45EEF59B2F0D} = {6F340F72-C72E-4DFC-BF2A-8F7EBD2CD7FD}
+	EndGlobalSection
+EndGlobal
